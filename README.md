@@ -44,7 +44,7 @@ To install the ESP32 board in your Arduino IDE, follow these next instructions:
 
 ## To do
 - Add power management
-- Add option to use WiFi if the Ethernet isn't working
+- Add option to use WiFi if the Ethernet isn't working in that you can do a WiFi hotspot and continue to use the bot being near the shield
 
 ## References
 - https://github.com/cotestatnt/AsyncTelegram2 *

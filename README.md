@@ -42,6 +42,10 @@ To install the ESP32 board in your Arduino IDE, follow these next instructions:
 - External power supply 5.0V-0.7A
 - To use relays I used specific pins because some of them are HIGH at boot ***
 
+## To do
+- Add power management
+- ///////////
+
 ## References
 - https://github.com/cotestatnt/AsyncTelegram2 *
 - https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/ **

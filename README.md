@@ -50,3 +50,4 @@ To install the ESP32 board in your Arduino IDE, follow these next instructions:
 - https://github.com/cotestatnt/AsyncTelegram2 *
 - https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/ **
 - https://randomnerdtutorials.com/esp32-pinout-reference-gpios/ ***
+- https://github.com/jozala/ESP32_W5500_MQTT

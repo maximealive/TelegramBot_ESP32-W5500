@@ -9,6 +9,10 @@ W5500 shield
 
 // mettere immagine
 
+## Connection
+
+// mettere schema + foto originale
+
 ## Install library
 <pre>
 - AsyncTelegram2 v.2.0.4 (cotestatn)

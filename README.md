@@ -7,7 +7,15 @@ ESP32-WROOM-32             |  W5500 shield             |5V 4-Channel Relay Modul
 <img src="https://user-images.githubusercontent.com/12975980/149148822-50f93fa7-2737-4645-b8b0-bc0e2947304d.jpg" width="100" height="100" />  |  <img src="https://user-images.githubusercontent.com/12975980/149148979-3c30bb2f-e8ec-4d13-b4b2-b634d4bb84a3.jpg" width="100" height="100" />  |<img src="https://user-images.githubusercontent.com/12975980/149150298-bc503122-0125-4117-a21d-d7fe446f0cd4.jpg" width="100" height="100" />  | 
 
 ## Connections
+<pre>
+ESP32     W5500     ESP32     RELAY SHIELD
 
+G                             IN1
+G                             IN2
+G                             IN3
+G                             IN4
+
+</pre>
 // mettere schema + foto originale
 
 ## Software

@@ -2,11 +2,11 @@
 
 ## Hardware
 
-ESP32-WROOM-32             |  W5500 shield             |5V 4-Channel Relay Module  |  Switching Power Supply 12V          |
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-<img src="https://user-images.githubusercontent.com/12975980/149148822-50f93fa7-2737-4645-b8b0-bc0e2947304d.jpg" width="100" height="100" />  |  <img src="https://user-images.githubusercontent.com/12975980/149148979-3c30bb2f-e8ec-4d13-b4b2-b634d4bb84a3.jpg" width="100" height="100" />  |<img src="https://user-images.githubusercontent.com/12975980/149150298-bc503122-0125-4117-a21d-d7fe446f0cd4.jpg" width="100" height="100" />  | <img src="https://user-images.githubusercontent.com/12975980/149152089-c6aa75c3-c5a1-4eca-baa4-db32fc0b3315.jpg" width="100" height="100" />  |
+ESP32-WROOM-32             |  W5500 shield             |5V 4-Channel Relay Module  |
+:-------------------------:|:-------------------------:|:-------------------------:|
+<img src="https://user-images.githubusercontent.com/12975980/149148822-50f93fa7-2737-4645-b8b0-bc0e2947304d.jpg" width="100" height="100" />  |  <img src="https://user-images.githubusercontent.com/12975980/149148979-3c30bb2f-e8ec-4d13-b4b2-b634d4bb84a3.jpg" width="100" height="100" />  |<img src="https://user-images.githubusercontent.com/12975980/149150298-bc503122-0125-4117-a21d-d7fe446f0cd4.jpg" width="100" height="100" />  | 
 
-## Connection
+## Connections
 
 // mettere schema + foto originale
 
@@ -21,6 +21,8 @@ ESP32-WROOM-32             |  W5500 shield             |5V 4-Channel Relay Modul
 - SSLClient       v.1.6.11 (by OPenS Lab)
 - Ethernet        v.2.0.0  (by Arduino)
 </pre>
+
+// aggiungere immagini del bot funzionante
 
 ## Install ESP32 Add-on in Arduino IDE **
 To install the ESP32 board in your Arduino IDE, follow these next instructions:

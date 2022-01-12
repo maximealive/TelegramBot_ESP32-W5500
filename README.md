@@ -40,7 +40,7 @@ To install the ESP32 board in your Arduino IDE, follow these next instructions:
 
 ## Notes
 - External power supply 5.0V-0.7A
-- To use relays I used specific pins because some of them are HIGH at boot ***
+- To use relays I used specific pins because some of them are HIGH at boot and this could cause problem ***
 
 ## To do
 - Add power management

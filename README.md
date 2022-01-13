@@ -31,8 +31,6 @@ ESP32-WROOM-32             |  W5500 shield             |5V 4-Channel Relay Modul
 - Ethernet        v.2.0.0  (by Arduino)
 </pre>
 
-// aggiungere immagini del bot funzionante
-
 ## Install ESP32 Add-on in Arduino IDE **
 To install the ESP32 board in your Arduino IDE, follow these next instructions:
 - From Arduino IDE: __*File*__ -> __*Preferences*__
@@ -48,6 +46,9 @@ To install the ESP32 board in your Arduino IDE, follow these next instructions:
 - Be sure that when the upload finishes you can see something like this: 
 
   <img src="https://user-images.githubusercontent.com/12975980/149152743-3a9c4def-885b-451e-ae64-4ccf05d88690.png" width="200" height="150" />
+## Result
+ 
+  <img src="https://user-images.githubusercontent.com/12975980/149348342-5f0e84b9-9b55-4cfd-9002-9d7415412b26.gif" width="200" height="150" />
 
 ## Notes
 - Before use an external power supply (5.0V-0.7A) I tested the circuit connecting both the relay shield and Ethernet shield to *Vin* pin of the ESP32 and all the ground together, with the ESP32 connected to the PC through the micro USB cable.

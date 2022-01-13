@@ -54,6 +54,9 @@ To install the ESP32 board in your Arduino IDE, follow these next instructions:
 - Before use an external power supply (5.0V-0.7A) I tested the circuit connecting both the relay shield and Ethernet shield to *Vin* pin of the ESP32 and all the ground together, with the ESP32 connected to the PC through the micro USB cable.
 - To use relays I used specific pins because some of them are HIGH at boot and this could cause problem ***
 
+
+- Any suggestions are welcome
+
 ## To do
 - Add power management
 - Add option to use WiFi if the Ethernet isn't working in that you can do a WiFi hotspot and continue to use the bot being near the shield

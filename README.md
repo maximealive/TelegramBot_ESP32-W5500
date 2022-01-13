@@ -7,16 +7,17 @@ ESP32-WROOM-32             |  W5500 shield             |5V 4-Channel Relay Modul
 <img src="https://user-images.githubusercontent.com/12975980/149148822-50f93fa7-2737-4645-b8b0-bc0e2947304d.jpg" width="100" height="100" />  |  <img src="https://user-images.githubusercontent.com/12975980/149148979-3c30bb2f-e8ec-4d13-b4b2-b634d4bb84a3.jpg" width="100" height="100" />  |<img src="https://user-images.githubusercontent.com/12975980/149150298-bc503122-0125-4117-a21d-d7fe446f0cd4.jpg" width="100" height="100" />  | 
 
 ## Connections
-<pre>
-ESP32     W5500     ESP32     RELAY SHIELD
-
-G                             IN1
-G                             IN2
-G                             IN3
-G                             IN4
-
-</pre>
-// mettere schema + foto originale
+| ESP32      | W5500 shield          | Relay SHIELD  |
+|:----------:|:---------------------:|:-------------:|
+| G23        |   MOSI                |               |
+| G19        |   MISO                |               |
+| G18        |   SCLK                |               |
+| G5         |   SCS                 |               |
+| G26 OPP G11        |   RST                 |               |
+| G17        |                       |    IN1        |
+| G16        |                       |    IN2        |
+| G33        |                       |    IN3        |
+| G25        |                       |    IN4        |
 
 ## Software
 - Windows 10
@@ -49,7 +50,7 @@ To install the ESP32 board in your Arduino IDE, follow these next instructions:
   <img src="https://user-images.githubusercontent.com/12975980/149152743-3a9c4def-885b-451e-ae64-4ccf05d88690.png" width="200" height="150" />
 
 ## Notes
-- External power supply 5.0V-0.7A
+- Before use an external power supply (5.0V-0.7A) I tested the circuit connecting both the relay shield and Ethernet shield to *Vin* pin of the ESP32 and all the ground together, with the ESP32 connected to the PC through the micro USB cable.
 - To use relays I used specific pins because some of them are HIGH at boot and this could cause problem ***
 
 ## To do

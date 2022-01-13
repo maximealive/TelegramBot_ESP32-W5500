@@ -9,15 +9,15 @@ ESP32-WROOM-32             |  W5500 shield             |5V 4-Channel Relay Modul
 ## Connections
 | ESP32      | W5500 shield          | Relay SHIELD  |
 |:----------:|:---------------------:|:-------------:|
-| G23        |   MOSI                |               |
-| G19        |   MISO                |               |
-| G18        |   SCLK                |               |
-| G5         |   SCS                 |               |
-| G26 OPP G11        |   RST                 |               |
-| G17        |                       |    IN1        |
-| G16        |                       |    IN2        |
-| G33        |                       |    IN3        |
-| G25        |                       |    IN4        |
+| G23        |   MOSI                |     /         |
+| G19        |   MISO                |     /         |
+| G18        |   SCLK                |     /         |
+| G5         |   SCS                 |     /         |
+| G26        |   RST                 |     /         |
+| G17        |         /             |    IN1        |
+| G16        |         /             |    IN2        |
+| G33        |         /             |    IN3        |
+| G25        |         /             |    IN4        |
 
 ## Software
 - Windows 10
@@ -63,4 +63,4 @@ To install the ESP32 board in your Arduino IDE, follow these next instructions:
 - https://github.com/cotestatnt/AsyncTelegram2 *
 - https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/ **
 - https://randomnerdtutorials.com/esp32-pinout-reference-gpios/ ***
-- https://github.com/jozala/ESP32_W5500_MQTT
+- https://github.com/PuceBaboon/ESP32_W5500_NTP_CLIENT

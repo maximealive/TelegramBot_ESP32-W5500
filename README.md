@@ -25,7 +25,7 @@ ESP32-WROOM-32             |  W5500 shield             |5V 4-Channel Relay Modul
 
 ## Install library
 <pre>
-- AsyncTelegram2  v.2.0.4  (by Tolentino Cotesta) *
+- AsyncTelegram2  v.2.0.4  (by Tolentino Cotestatnt) *
 - ArduinoJson     v.6.15.2 (by Benoit Blanchon)
 - SSLClient       v.1.6.11 (by OPenS Lab)
 - Ethernet        v.2.0.0  (by Arduino)
